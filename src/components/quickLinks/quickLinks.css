@@ -1,0 +1,28 @@
+.header-links {
+    display: block;
+}
+
+.quick-links-content {
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+}
+
+.quick-links-buttons > button {
+    font-size: 1.85vh;
+    margin-bottom: 0.325rem;
+    border: none;
+    background-color: var(--current-card);
+    border-radius: 0.46875rem;
+    filter: drop-shadow(0rem 0.3125rem 0.375rem var(--current-shadow));
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.quick-links-buttons > button:hover {
+    filter: drop-shadow(0rem 0.3125rem 0.375rem var(--current-shadow-hover));
+}
+
+.quick-links-buttons > button:active {
+    filter: none;
+}

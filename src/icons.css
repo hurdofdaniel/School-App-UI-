@@ -1,0 +1,182 @@
+.ico { 
+    height: 1.25vw;
+    width: 1.25vw;
+}
+
+.ico-open {
+    background-color: var(--current-text);
+    -webkit-mask-image: url('../public/icons/open.svg');
+    mask-image: url('../public/icons/open.svg');
+    mask-repeat: no-repeat;
+}
+
+.ico-classroom {
+    background-color: var(--current-text);
+    -webkit-mask-image: url('../public/icons/class.svg');
+    mask-image: url('../public/icons/class.svg');
+    mask-repeat: no-repeat;
+    padding-right: 0.75vw;
+}
+
+.ico-creator {
+    background-color: var(--current-text);
+    -webkit-mask-image: url('../public/icons/creator.svg');
+    mask-image: url('../public/icons/creator.svg');
+    mask-repeat: no-repeat;
+    padding-right: 0.75vw;
+}
+
+.ico-exams {
+    background-color: var(--current-text);
+    -webkit-mask-image: url('../public/icons/exams.svg');
+    mask-image: url('../public/icons/exams.svg');
+    mask-repeat: no-repeat;
+    padding-right: 0.75vw;
+}
+
+.ico-file-history {
+    background-color: var(--current-text);
+    -webkit-mask-image: url('../public/icons/file-history.svg');
+    mask-image: url('../public/icons/file-history.svg');
+    mask-repeat: no-repeat;
+    padding-right: 0.75vw;
+}
+
+.ico-quick-links {
+    background-color: var(--current-text);
+    -webkit-mask-image: url('../public/icons/quick-links.svg');
+    mask-image: url('../public/icons/quick-links.svg');
+    mask-repeat: no-repeat;
+    padding-right: 0.75vw;
+}
+
+.ico-quick-tools {
+    background-color: var(--current-text);
+    -webkit-mask-image: url('../public/icons/quick-tools.svg');
+    mask-image: url('../public/icons/quick-tools.svg');
+    mask-repeat: no-repeat;
+    padding-right: 0.75vw;
+}
+
+.ico-other {
+    background-color: var(--current-text);
+    -webkit-mask-image: url('../public/icons/other.svg');
+    mask-image: url('../public/icons/other.svg');
+    mask-repeat: no-repeat;
+    padding-right: 0.75vw;
+}
+
+.ico-timetable {
+    background-color: var(--current-text);
+    -webkit-mask-image: url('../public/icons/timetable.svg');
+    mask-image: url('../public/icons/timetable.svg');
+    mask-repeat: no-repeat;
+    padding-right: 0.75vw;
+}
+
+.ico-Docs {
+    background-color: var(--current-text);
+    mask-image: url('../public/icons/fileIcons/docs.svg');
+    mask-repeat: no-repeat;
+}
+
+.ico-Sheets {
+    background-color: var(--current-text);
+    mask-image: url('../public/icons/fileIcons/sheets.svg');
+    mask-repeat: no-repeat;
+}
+
+.ico-Slides {
+    background-color: var(--current-text);
+    mask-image: url('../public/icons/fileIcons/slides.svg');
+    mask-repeat: no-repeat;
+}
+
+.ico-Audio {
+    background-color: var(--current-text);
+    /* AUDIO ICON */
+    mask-image: url('../public/icons/fileIcons/slides.svg');
+    mask-repeat: no-repeat;
+}
+
+.ico-Drawing {
+    background-color: var(--current-text);
+    mask-image: url('../public/icons/fileIcons/drawing.svg');
+    mask-repeat: no-repeat;
+}
+
+.ico-Shortcut {
+    background-color: var(--current-text);
+    /* SHORTCUT ICON */
+    mask-image: url('../public/icons/fileIcons/slides.svg');
+    mask-repeat: no-repeat;
+}
+
+.ico-File {
+    background-color: var(--current-text);
+    /* FILE ICON */
+    mask-image: url('../public/icons/fileIcons/slides.svg');
+    mask-repeat: no-repeat;
+}
+
+.ico-Folder {
+    background-color: var(--current-text);
+    mask-image: url('../public/icons/fileIcons/folder.svg');
+    mask-repeat: no-repeat;
+}
+
+.ico-Form {
+    background-color: var(--current-text);
+    mask-image: url('../public/icons/fileIcons/forms.svg');
+    mask-repeat: no-repeat;
+}
+
+.ico-Fusion {
+    background-color: var(--current-text);
+    mask-image: url('../public/icons/fileIcons/fusiontable.svg');
+    mask-repeat: no-repeat;
+}
+
+.ico-Jam {
+    background-color: var(--current-text);
+    /* JAMBOARD ICON */
+    mask-image: url('../public/icons/fileIcons/slides.svg');
+    mask-repeat: no-repeat;
+}
+
+.ico-Map {
+    background-color: var(--current-text);
+    mask-image: url('../public/icons/fileIcons/map.svg');
+    mask-repeat: no-repeat;
+}
+
+.ico-Photo {
+    background-color: var(--current-text);
+    mask-image: url('../public/icons/fileIcons/photo.svg');
+    mask-repeat: no-repeat;
+}
+
+.ico-Script {
+    background-color: var(--current-text);
+    mask-image: url('../public/icons/fileIcons/script.svg');
+    mask-repeat: no-repeat;
+}
+
+.ico-Site {
+    background-color: var(--current-text);
+    /* SITE ICON */
+    mask-image: url('../public/icons/fileIcons/slides.svg');
+    mask-repeat: no-repeat;
+}
+
+.ico-Unknown {
+    background-color: var(--current-text);
+    mask-image: url('../public/icons/fileIcons/unknown.svg');
+    mask-repeat: no-repeat;
+}
+
+.ico-Video {
+    background-color: var(--current-text);
+    mask-image: url('../public/icons/fileIcons/video.svg');
+    mask-repeat: no-repeat;
+}

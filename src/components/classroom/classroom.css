@@ -1,0 +1,51 @@
+.classes-header {
+    display: inline-flex;
+    align-items: center;
+}
+
+.classes-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: auto;
+    height: 20.8vh;
+}
+
+.class-content {
+    display: inline-flex;
+    width: 8vw;
+    height: 7.3vh;
+    justify-content: space-between;
+    border-radius: 0.9375rem;
+    filter: drop-shadow(0rem 0.3125rem 0.9375rem var(--current-shadow-hover));
+    background-color: var(--current-card);
+    align-items: center;
+    margin-right: 0.525vw;
+    margin-left: 0.525vw;
+    margin-top: 0.925vh;
+    margin-bottom: 0.925vh;
+    cursor: pointer;
+}
+
+.class-text {
+    margin-left: 0.3125rem;
+}
+
+.class-name, .class-day {
+    margin: 0;
+}
+
+.class-icon-background {
+    background-color: var(--current-icon);
+    height: 5.3vh;
+    width: 2.518vw;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.3125rem;
+}
+
+.class-icon {
+    font-size: 1.625rem;
+}

@@ -1,0 +1,53 @@
+.new-file-container {
+    height: 17.6vh;
+    width: 12.25vw;
+}
+
+.new-file-header {
+    display: inline-flex;
+    align-items: center;
+}
+
+.new-file-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.new-file-button {
+    width: 47.5%;
+    border-radius: 0.4375rem;
+    border: none;
+    background-color: var(--current-card);
+    filter: drop-shadow(0rem 0rem 0.3125rem var(--current-shadow));
+    margin-top: 0.625rem;
+    height: 3.5vh;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.new-file-button:hover {
+    filter: drop-shadow(0rem 0rem 0.3125rem var(--current-shadow-hover));
+}
+
+.new-file-button:active {
+    filter: none;
+}
+
+.new-docs-button {
+    width: 100%;
+}
+
+.new-slides-button {
+    float: right;
+}
+
+.new-file-name {
+    background: var(--current-card);
+    border-radius: 0.9375rem;
+    border: none;
+    box-shadow: 0rem 0rem 0.3125rem var(--current-shadow);
+    filter: drop-shadow(0rem 0rem 0.3125rem var(--current-shadow-hover));
+    outline: none;
+}

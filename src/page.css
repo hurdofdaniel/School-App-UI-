@@ -1,0 +1,25 @@
+.page-container {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.page-content {
+    background-color: var(--current-card);
+    border-radius: 1.5625rem;
+    padding: 0.625rem;
+    margin: 0vh 0.4vw 1.54vh 0.4vw;
+    width: 21vw;
+    height: 19vh;
+    filter: drop-shadow(0rem 0.3125rem 0.9375rem var(--current-shadow));
+    transition: 0.3s;
+}
+
+.page-content:hover {
+    filter: drop-shadow(0rem 0.3125rem 0.9375rem var(--current-shadow-card));
+}
+
+.page-content > p {
+    margin-top: 0rem;
+    margin-bottom: 0.3125rem;
+}

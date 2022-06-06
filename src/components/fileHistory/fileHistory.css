@@ -1,0 +1,74 @@
+.files-container {
+    height: 53.72vh;
+    width: 21.36vw;
+}
+
+.files-header {
+    display: inline-flex;
+    align-items: center;
+}
+
+.files-content {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    background-color: var(--current-card);
+    border-radius: 0.9375rem;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    cursor: pointer;
+}
+
+.file-icon-container {
+    background-color: var(--current-icon);
+    border-radius: 100%;
+    height: 7.75vh;
+    width: 3.683vw;
+    margin-left: 1.73%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.file-icon {
+    mask-repeat: no-repeat;
+    mask-position: center;
+    width: 60%;
+    height: 60%;
+    margin: auto;
+}
+
+.files-content > div:nth-child(2) {
+    margin-left: 0.625rem;
+}
+
+.files-content > div:nth-child(2) > p {
+    margin: 0;
+}
+
+.files-content > div:nth-child(2) > p:nth-child(2) {
+    margin-bottom: 0;
+}
+
+.files-content > div:nth-child(3) {
+    margin-left: auto;
+}
+
+.files-content-container {
+    overflow: auto;
+    height: 50vh;
+    border-radius: 0.9375rem 0.9375rem 0.9375rem 0.9375rem;
+}
+
+.files-content-container::-webkit-scrollbar {
+    display: none;
+}
+
+.files-content-container > div {
+    margin-bottom: 0.625rem;
+}
+
+.file-open {
+    margin-right: 0.5rem;
+}

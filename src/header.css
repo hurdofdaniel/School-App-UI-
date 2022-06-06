@@ -1,0 +1,39 @@
+.header-content {
+    display: flex;
+    justify-content: center;
+}
+
+.header-item {
+    background-color: var(--current-card);
+    border-radius: 1.5625rem;
+    padding: 0.625rem;
+    margin: 0vh 0.4vw 1.54vh 0.4vw;
+    display: inline-flex;
+    width: 21vw;
+    height: 19vh;
+    filter: drop-shadow(0rem 0.3125rem 0.9375rem var(--current-shadow));
+}
+
+.header-background {
+    z-index: -1;
+    position: absolute;
+    width: 88vw;
+    height: 27vh;
+    right: 0;
+    background-color: var(--header);
+    border-radius: 0 0 0 5rem;
+}
+
+.header-container > .header-text {
+    display: inline-flex;
+    color: var(--current-text-secondary);
+    font-size: 1.4375rem;
+    margin-top: 8.75vh;
+    margin-left: 14.75vw;
+}
+  
+.header-item > .header-text {
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+}

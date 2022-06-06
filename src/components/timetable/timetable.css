@@ -1,0 +1,77 @@
+.classes-container {
+    width: 29.75vw;
+    height: 24.55vh;
+}
+
+.timetable-container {
+    width: 29.75vw;
+    height: 24.55vh;
+}
+
+.timetable-header {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.timetable-header-text {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+}
+
+.timetable-header>button {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.timetable-container>table {
+    width: 100%;
+}
+
+th, td {
+    font-size: 0.8125rem;
+    /* padding-right: 0.78125rem; */
+    text-align: left;
+    width: 84px;
+}
+
+tr>td:nth-last-child(1), tr>th:nth-last-child(1) {
+    padding-right: 0;
+}
+
+th {
+    width: 4.5vw;
+}
+
+tr>th:nth-child(1) {
+    width: 4.3vw;
+}
+
+td>div {
+    margin: 0;
+    display: inline-flex;
+}
+
+td>div>button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.timetable-input-cell {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    width: 100%;
+    /* text-align: left; */
+    font-size: 0.8125rem;
+    background: none;
+    color: var(--current-text);
+}

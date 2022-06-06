@@ -1,0 +1,37 @@
+:root {
+    --header: #004730;
+
+    --light-background: #EFEEEE;
+    --dark-background: #2C2C2C;
+    --current-background: var(--dark-background);
+
+    --light-card: #F5F6FA;
+    --dark-card: #2F3640;
+    --current-card: var(--dark-card);
+
+    --light-shadow-card: rgba(0, 0, 0, 0.24);
+    --dark-shadow-card: rgba(200, 200, 200, 0.24);
+    --current-shadow-card: var(--dark-shadow-card);
+
+    --light-text: #2C2C2C;
+    --dark-text: #EFEEEE;
+    --current-text: var(--dark-text);
+
+    --current-text-secondary: #FFFFFF;
+
+    --light-shadow: rgba(0, 0, 0, 0.16);
+    --dark-shadow: rgba(200, 200, 200, 0.16);
+    --current-shadow: var(--dark-shadow);
+
+    --light-shadow-hover: rgba(0, 0, 0, 0.08);
+    --dark-shadow-hover: rgba(200, 200, 200, 0.08);
+    --current-shadow-hover: var(--dark-shadow-hover);
+
+    --light-icon: hsl(220, 43%, 100%);
+    --dark-icon: hsl(215, 15%, 25%);
+    --current-icon: var(--dark-icon);
+
+    --light-scrollbar: #545454;
+    --dark-scrollbar: #a8a8a8;
+    --current-scrollbar: var(--dark-scrollbar);
+}
